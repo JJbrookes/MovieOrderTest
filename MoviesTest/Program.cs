@@ -37,13 +37,13 @@ public class program
         DateTime date4 = new DateTime(2064, 12, 25);
         
         Movie movie1 = new Movie("Texas Chainsaw Picnic", date1);
-        movie1.AddMovieDetails();
+        movie1.AddMovieDetails(catogories,"Avid picnic go-er",2,catogories,catogories);
         Movie movie2 = new Movie("Texas Chainsaw Picnic", date2);
-        movie2.AddMovieDetails();
+        movie2.AddMovieDetails(catogories);
         Movie movie3 = new Movie("Texas Chainsaw Picnic", date3);
-        movie3.AddMovieDetails();
+        movie3.AddMovieDetails(catogories);
         Movie movie4 = new Movie("Texas Chainsaw Picnic", date4);
-        movie4.AddMovieDetails();
+        movie4.AddMovieDetails(catogories);
 
         //  
         // Movie movie = new Movie("",);
