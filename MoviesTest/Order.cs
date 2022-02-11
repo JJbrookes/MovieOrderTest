@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace MoviesTest
 {
-    internal class Order
+    public class Order
     {
+        int orderId { get; set; }
+        string username;
+        List<Movie> orderedMovies { get; set; }
+        
+        
     }
 }

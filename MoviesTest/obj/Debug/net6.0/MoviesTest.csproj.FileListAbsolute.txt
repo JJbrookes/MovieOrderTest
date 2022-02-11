@@ -1,0 +1,5 @@
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.csproj.AssemblyReference.cache
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.AssemblyInfoInputs.cache
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.AssemblyInfo.cs
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.csproj.CoreCompileInputs.cache

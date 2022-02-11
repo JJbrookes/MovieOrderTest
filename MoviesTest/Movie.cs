@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviesTest
 {
-    public abstract class Movie
+    public class Movie
     {
 
         //////////////////////////////////////Attributes//////////////////////////////
@@ -19,16 +19,16 @@ namespace MoviesTest
         public List<string>? writors { get; set; }
 
         /////////////////////////////////////Constructors////////////////////////////
-        public Movie(String Title, DateTime ReleaseTime, List<string> Catorgories)
+        public Movie(String Title, DateTime ReleaseTime)
         {
             this.title = Title;
-            this.catogories = Catorgories;
             this.releaseDate = ReleaseTime;
         }
 
         ///////////////////////////////////Methods//////////////////////////////////
-        public void AddMovieDetails(String Title, List<string> Catogories, String Desciption, TimeOnly Length, DateTime ReleaseDate, List<string> Writers, List<string> Directors)
+        public void AddMovieDetails(List<string> Catogories, String Desciption, TimeOnly Length, DateTime ReleaseDate, List<string> Writers, List<string> Directors)
         {
+            this.catogories = catogories;
             this.length = Length;
             this.desciption = Desciption;
             this.releaseDate = ReleaseDate;
