@@ -9,8 +9,8 @@ namespace MoviesTest
     public class Order
     {
         int orderId { get; set; }
-        string username;
-        List<Movie> orderedMovies { get; set; }
+        string? username;
+        List<Movie>? orderedMovies { get; set; }
         
         
     }

@@ -3,3 +3,13 @@ C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\n
 C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.AssemblyInfoInputs.cache
 C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.AssemblyInfo.cs
 C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.csproj.CoreCompileInputs.cache
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\MoviesTest.exe
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\MoviesTest.deps.json
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\MoviesTest.runtimeconfig.json
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\MoviesTest.dll
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\ref\MoviesTest.dll
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\bin\Debug\net6.0\MoviesTest.pdb
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.dll
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\ref\MoviesTest.dll
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.pdb
+C:\Users\invig\Documents\TSI\Training\Week4 c#\MoviesTest\MoviesTest\obj\Debug\net6.0\MoviesTest.genruntimeconfig.cache

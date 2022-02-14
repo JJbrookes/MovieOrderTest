@@ -8,10 +8,10 @@ namespace MoviesTest
 {
     public class Customer: User
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string email { get; set; }
-        List<Order> orders { get; set; }
+        public string? firstName { get; set; }
+        public string? lastName { get; set; }
+        public string? email { get; set; }
+        List<Order>? orders { get; set; }
         public Customer(string username, string password):  base(username, password)
         {
 

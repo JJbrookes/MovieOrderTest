@@ -10,16 +10,16 @@ namespace MoviesTest
     {
 
         //////////////////////////////////////Attributes//////////////////////////////
-        public string? title { get; set; }
-        public List<string>? catogories { get; set; }
-        public string? desciption { get; set; }
-        public int length { get; set; }
-        public DateTime releaseDate { get; set; }
-        public List<string>? directors { get; set; }
-        public List<string>? writors { get; set; }
+        public string? title { get; private set; }
+        public List<string>? catogories { get; private set; }
+        public string? desciption { get; private set; }
+        public int length { get; private set; }
+        public DateOnly releaseDate { get; private set; }
+        public List<string>? directors { get; private set; }
+        public List<string>? writors { get; private set; }
 
         /////////////////////////////////////Constructors////////////////////////////
-        public Movie(String Title, DateTime ReleaseTime)
+        public Movie(String Title, DateOnly ReleaseTime)
         {
             this.title = Title;
             this.releaseDate = ReleaseTime;
