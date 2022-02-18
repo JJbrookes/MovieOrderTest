@@ -3,12 +3,15 @@ public class program
 {
     public static void Main(string[] args)
     {
+        Application.Run(new HomeForm());
         Console.WriteLine("Welcome to MovieMagic");
         Console.WriteLine("We offer movie searching and purchesing");
+        List<Movie> movies = new List<Movie>();
+        movies = PopulateMovies(movies);
         bool done = false;
         do
         {
-            List<Movie> movies = PopulateMovies();
+
             int choice;
 
             Console.WriteLine("Would you like to search for a Film(1)");
@@ -35,7 +38,13 @@ public class program
                     }
                     break;
                 case 4:
-                    AddMovie(movies);
+                    Movie newMovie = new Movie();
+                    movies.Add(newMovie);
+                    foreach(Movie movie in movies)
+                    {
+                        Console.WriteLine(movie);
+                        Console.WriteLine();   
+                    }
                     break;
                 case 0:
                     done = true;
@@ -48,30 +57,10 @@ public class program
 
        
     }
-    private static List<Movie> AddMovie(List<Movie> movies)
+
+
+    private static List<Movie> PopulateMovies(List<Movie> movies)
     {
-        Console.WriteLine("------ADD MOVIES------");
-        Console.WriteLine("Enter title: ");
-        String title = Console.ReadLine();
-        DateOnly dateOfRelease = GetDate();
-        Movie newMovie = new Movie(title, dateOfRelease);
-        Console.WriteLine(newMovie.title + " added to system");
-
-        Console.WriteLine("Time to add more info");
-        newMovie.addGenres();
-        foreach (string genre in newMovie.genres)
-        {
-            Console.WriteLine(genre);
-        }
-        movies.Add(newMovie);
-        return movies;
-
-
-    }
-
-    private static List<Movie> PopulateMovies()
-    {
-        List<Movie> movies = new List<Movie>();  
         List<string>? genres = new List<string>();
         DateOnly date1 = new DateOnly(2011, 12, 25);
         DateOnly date2 = new DateOnly(2012, 12, 25);
@@ -93,22 +82,7 @@ public class program
 
         //  
         // Movie movie = new Movie("",);
-        return movies;
-        
-
-    }
-
-
-    public static DateOnly GetDate()
-    {
-        DateOnly dateofrelease;
-        Console.WriteLine("enter date of release(00/00/0000): ");
-        if (DateOnly.TryParse(Console.ReadLine(), out dateofrelease))
-        {
-            return dateofrelease;
-        }
-        GetDate();
-        return dateofrelease;
+        return movies;      
     }
     private static int IntInputVaildation(String message)
     {

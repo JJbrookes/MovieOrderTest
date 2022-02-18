@@ -21,7 +21,7 @@ namespace MoviesTest
 
         public abstract void DeleteUser();
 
-        public abstract void EditUser();
+        public abstract void EditUser(String? userName = null, String? password = null);
     }
 
 }

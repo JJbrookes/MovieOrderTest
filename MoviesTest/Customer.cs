@@ -25,9 +25,16 @@ namespace MoviesTest
         {
             throw new NotImplementedException();
         }
-        public override void EditUser()
-        {
-            throw new NotImplementedException();
+        public override void EditUser(String? userName=null, String? password=null)
+        {   if(userName != null)
+            {
+                this.userName = userName;
+            }
+            if (password == null)
+            {
+                this.password = password;
+            }
+            
         }
         public override void DeleteUser()
         {
